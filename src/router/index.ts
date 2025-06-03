@@ -13,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/calendar/index.vue')
   },
   {
+    path: '/drag-list',
+    name: 'drag-list',
+    component: () => import('../views/drag-list/index.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
